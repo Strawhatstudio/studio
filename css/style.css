@@ -499,15 +499,15 @@ color: #fff;
 /* ======= Selection style ======= */
 ::-webkit-selection {
     color: #fff;
-    background: #8aa288;
+    background: #9e832a;
 }
 ::-moz-selection {
     color: #fff;
-    background: #8aa288;
+    background: #9e832a;
 }
 ::selection {
     color: #fff;
-    background: #8aa288;
+    background: #9e832a;
 }
 
 
