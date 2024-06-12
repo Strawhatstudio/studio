@@ -854,7 +854,7 @@ color: #fff;
     color: #748173;
 }
 .nav-scroll {
-    background: #000;
+    background: #ffffff;
     padding: 0 0 0 0;
     position: fixed;
     top: -100px;
@@ -874,10 +874,10 @@ color: #fff;
     color: #748173;
 }
 .nav-scroll .navbar-nav .nav-link {
-    color: #fff;
+    color: #000000;
 }
 .nav-scroll .navbar-nav .active {
-    color: #748173 !important;
+    color: #5a6d58 !important;
 }
 .nav-scroll .navbar-nav .logo {
     padding: 15px 0;
@@ -1012,7 +1012,7 @@ color: #fff;
         padding-bottom: 0px;
     }
     .nav-scroll {
-        background: #000;
+        background: #ffffff;
     }
     .logo-wrapper {
         float: left;
@@ -1065,7 +1065,7 @@ color: #fff;
         color: #1b1b1b !important;
     }
     .nav-scroll .navbar-collapse .active {
-        color: #748173 !important;
+        color: #5a6d58 !important;
     }   
     .navbar .dropdown-menu .dropdown-item {
         padding: 0 15px;
