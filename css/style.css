@@ -1899,7 +1899,7 @@ hr {
     padding: 0 30px 30px 15px;
     position: relative;
 }
-.about2 .about-img .img:before {
+/* .about2 .about-img .img:before {
     content: '';
     position: absolute;
     top: 30px;
@@ -1907,8 +1907,8 @@ hr {
     left: 45px;
     bottom: 0;
     background-color: #748173;
-}
-.about2 .about-img .img:after {
+} */
+/* .about2 .about-img .img:after {
     content: '';
     width: 50%;
     position: absolute;
@@ -1918,7 +1918,7 @@ hr {
     background-image: url(../img/dots.png);
     background-repeat: repeat;
     z-index: -1;
-}
+} */
 .about2 .about-img .img img {
     position: relative;
     z-index: 2;
