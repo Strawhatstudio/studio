@@ -2239,6 +2239,7 @@ position: relative;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 10px;
+    line-height: 40px;
 }
 .services .item .con h5 span, 
 .services .item .con h5 a span {
@@ -4948,7 +4949,7 @@ select {
   }
   .process .item:hover .icon {
     background: #fff !important;
-    color: #ed5521;
+    color: #748173;
   }
   .process .item img {
     position: absolute;
@@ -4992,21 +4993,23 @@ select {
   }
   .process h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 48px;
-      font-weight: 400;
+      font-size: 40px;
+      font-weight: 300;
       line-height: 1.25em;
       color: #fff;
       position: relative;
       margin-bottom: 40px;
   }
   .process h5 {
-      font-family: 'Didact Gothic', sans-serif;
-      font-size: 16px;
-      font-weight: 400;
-      color: #fff;
-      position: relative;
-      margin-bottom: 0px;
-      padding-bottom: 50px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
   }
   .process .item h6 {
       font-size: 20px;
@@ -5028,7 +5031,7 @@ select {
 
 /* ======= Section style ======= */
 .section-padding {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 /* .section-title {
     font-size: 48px;
@@ -5057,7 +5060,7 @@ select {
     content: '';
     width: 40px;
     height: 1px;
-    background: #ed5521;
+    background: #ffffff;
     position: absolute;
     left: 0;
     top: 50%;
@@ -5072,7 +5075,7 @@ select {
     margin-bottom: 20px; 
 }
 .section-title2 span {
-    color: #ed5521;
+    color: #ffffff;
 }  
 
 /* ======= Gallery 1 style ======= */
@@ -5718,3 +5721,95 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: 0;
     width: auto;
 }
+
+@media screen and (max-width: 768px)  {
+    .hide-on-specific-screen-size {
+      display: none;
+    }
+  }
+  
+  html,body{
+    overflow-x: hidden;
+}
+.success-model {
+    /* Adjust styles as needed */
+    display: none; /* Initially hidden */
+    background-color: #748173;
+    position: fixed; /* Stays in place when scrolling */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px; /* Padding for content */
+    border: 1px solid #ddd; /* Border */
+    border-radius: 5px; /* Rounded corners */
+    z-index: 999; /* Ensure it appears above other elements */
+    opacity: 1; /* Initial opacity for fade-in effect */
+    transition: opacity 0.5s ease-in-out; /* Transition for fade */
+    text-align: center;
+    padding: 50px;
+    font-family: 'Dantina', sans-serif;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+  
+  .success-model.show {
+    display: block; /* Make it visible */
+    opacity: 1; /* Full opacity */
+  }
+  
+  #overlay {
+    display: none;
+    position: fixed; /* Stays in place when scrolling */
+    top: 0; /* Covers the entire viewport from the top */
+    left: 0; /* Covers the entire viewport from the left */
+    width: 100%; /* Spans the entire width */
+    height: 100%; /* Spans the entire height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 998; /* One level below the model for proper layering */
+  }
+  #loader {
+    display: none;
+    position: absolute; /* Absolute positioning within the overlay */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the loader */
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    border-radius: 50%;
+    border: 5px solid #748173; /* Thinner colored border */
+    border-top: 15px solid transparent;
+    animation: rotate 1s linear infinite; /* Animation for rotation */
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .card {
+    display: flex;
+    width: 20vw; 
+    border: none; /* 100% viewport width */
+    transition: transform 0.3s ease-in-out; 
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 20vw;  /* 50% viewport width */
+    height: 50vh; /* 50% viewport height */
+    object-fit: cover;  /* Maintain aspect ratio with cropping */
+  }
+  
+  .card-text {
+    flex: 1;
+    padding: 10px;
+    font-size: 0.8rem; /* Adjust font size as needed */
+  }
+  .card:hover {
+    transform: scale(1.1);  /* Zoom effect on hover */
+    overflow: auto;   /* Zoom effect on hover (adjust scale as needed) */
+  }
