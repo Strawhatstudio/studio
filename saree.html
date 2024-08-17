@@ -9,26 +9,28 @@
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Playfair+Display:ital@0;1&amp;display=swap">
     <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
+
+
 <body>
-
-
 <!-- Preloader -->
-<div class="preloader-bg"><div class="container hero-inner h-100">
-    <div class="v-middle">
-    <div class="row h-100">
-        <div class="col-md-12 text-center">
-            <div class="text-inner">
-                    <div class="hero-title" style="color: black;">Straw hat Studio</div>
-                    <p class="hero-subtitle" style="color: black;">Make your memories more special</p>
+<div class="preloader-bg">
+    <div class="container hero-inner h-100">
+        <div class="v-middle">
+            <div class="row h-100">
+                <div class="col-md-12 text-center">
+                    <div class="text-inner">
+                        <div class="hero-title" style="color: black;">Straw hat Studio</div>
+                        <p class="hero-subtitle" style="color: black;">Make your memories more special</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 </div>
-</div>
-    
+
 
 
 <!-- Progress scroll totop -->
@@ -37,6 +39,11 @@
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
 </div>
+<div id="overlay">
+    <div id="loader"></div>
+</div>
+<div id="success-message" class="success-model"></div>
+
 
 
 <!-- Navbar -->
@@ -53,10 +60,10 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html#home" >Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="0">Commercial & Event</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" >Portrait</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" >Real Estate</a></li>
-                <li class="nav-item"><a class="nav-link" href="index1.html#pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="commercial&event.html">Commercial & Event</a></li>
+                <li class="nav-item"><a class="nav-link" href="portrait.html">Portrait</a></li>
+                <li class="nav-item"><a class="nav-link" href="realestate.html" >Real Estate</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#price">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
             </ul>
         </div>
@@ -65,68 +72,235 @@
 
 
 
-<!-- Portfolio -->
-<section class="services section-padding">
+<!-- Header Banner -->
+<div id="home" data-scroll-index="0" class="banner-header2 section-padding valign bg-img bg-fixed" data-overlay-dark="3" data-background="img/page/portrait/banner.jpg">
     <div class="container">
         <div class="row">
-            <div style="display: flex;justify-content: center;">
-                <div class="col-md-5 mb-30" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
-                    <div class="section-subtitle">showcase</div>
-                    <div class="section-title">Our <span>Gallery</span></div>
-                </div>  
+            <div class="col-md-12 caption mt-90">
+                <h6>Swashthika </h6>
+                <h6>_</h6>
+                <h1>Tamil<span>Saree</span></h1>
             </div>
         </div>
-        <div class="row">
-            
-            
-            <div class="col-md-4">
-                <div class="item">
-                    <a href="pottuthakku.html"><img src="img/services/1.jpg" alt=""></a>
-                    <div class="con1">
-                        <h5><a href="">Commercials & Events<span></span></a> </h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col-md-12 text-right">
-                                <a>kalaiselvan</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    </div>
+</div>
 
-            <div class="col-md-4">
-                <div class="item">
-                    <a href=""><img src="img/services/1.jpg" alt=""></a>
-                    <div class="con1">
-                        <h5><a href="">Commercials & Events<span></span></a> </h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col-md-12 text-right">
-                                <a>kalaiselvan</a>
-                            </div>
-                        </div>
+
+
+<!-- Isotope/Masonry Gallery -->
+<section class="section-padding">
+    <div class="container">
+        <div class="row florya-gallery-items">
+
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQNQZQGnufoDSaYVQH65-d3nAdhjW-q63PnpsD32ReKN9j0?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQNQZQGnufoDSaYVQH65-d3nAdhjW-q63PnpsD32ReKN9j0?width=2000&height=2664" alt=""> </div>
                     </div>
-                </div>
+                </a>
             </div>
             
-            <div class="col-md-4">
-                <div class="item">
-                    <a href=""><img src="img/services/1.jpg" alt=""></a>
-                    <div class="con1">
-                        <h5><a href="">Commercials & Events<span></span></a> </h5>
-                        <div class="line"></div>
-                        <div class="row facilities">
-                            <div class="col-md-12 text-right">
-                                <a>kalaiselvan</a>
-                            </div>
-                        </div>
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQOlbsAKfdI4T6fnujJpG6nKAZLBfZ9PlF4C74UAGrqpacU?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQOlbsAKfdI4T6fnujJpG6nKAZLBfZ9PlF4C74UAGrqpacU?width=2000&height=2664" alt=""> </div>
                     </div>
-                </div>
+                </a>
             </div>
-
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQMsZgMpohSYQLMlhg4J9fY2Abgtz5I3VoDfCqgGakhLlxs?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQMsZgMpohSYQLMlhg4J9fY2Abgtz5I3VoDfCqgGakhLlxs?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQMop966nLkeRou0pHdjs5zuAVYu59wvJ606vx_X6xuA57M?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQMop966nLkeRou0pHdjs5zuAVYu59wvJ606vx_X6xuA57M?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQMX7SVNT8hJR7_jZON-QX0UAd-YYVkqcUQMwh6Ne0wwWbo?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQMX7SVNT8hJR7_jZON-QX0UAd-YYVkqcUQMwh6Ne0wwWbo?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQMy-6r4X5i0TaSXCUjVsclDAaFI0CAUuxEVWsY5r1LuU_U?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQMy-6r4X5i0TaSXCUjVsclDAaFI0CAUuxEVWsY5r1LuU_U?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQPWyxHHtPsORJUUZAp4f0YJAbQmkQD-OXZ6I1vomRxNYts?width=2664&height=2000" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQPWyxHHtPsORJUUZAp4f0YJAbQmkQD-OXZ6I1vomRxNYts?width=2664&height=2000" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQO89medHxvFSZGbhVp1iOnSASt94JGyIpQpIO9F6aufua4?width=3000&height=2000" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQO89medHxvFSZGbhVp1iOnSASt94JGyIpQpIO9F6aufua4?width=3000&height=2000" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQP0ZUo1eNvgQYGkmq3fQcOtAcdrWABCOETZxgH1wybpUSw?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQP0ZUo1eNvgQYGkmq3fQcOtAcdrWABCOETZxgH1wybpUSw?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQPeWcd248T9RZZuPnns9B--Ac_MSIHsv4HKP36W0PalOnU?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQPeWcd248T9RZZuPnns9B--Ac_MSIHsv4HKP36W0PalOnU?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQMxuJaBgQ0VT5CsGJRLLAyXAQDy94XGyxACgIrvmw1JKc4?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQMxuJaBgQ0VT5CsGJRLLAyXAQDy94XGyxACgIrvmw1JKc4?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+                        
+            <div class="col-md-4 florya-masonry-wrapper single-item weddings">
+                <a href="https://1drv.ms/i/c/085170582ebc57d6/IQO1XE2Rym9zRJZn9PLULMNPAX76_4BtCmAxqKyTttcztsI?width=2000&height=2664" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQO1XE2Rym9zRJZn9PLULMNPAX76_4BtCmAxqKyTttcztsI?width=2000&height=2664" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+                        
         </div>
     </div>
 </section>
+
+
+
+<!-- Video Gallery -->
+<section class="section-padding bg-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-30">
+                <!-- <div class="section-subtitle white">Popup</div> -->
+                <div class="section-title white">Video <span class="white">Gallery</span></div>
+            </div>
+            <!-- 2 columns -->
+            <!-- <div class="col-md-6">
+                <div class="vid-area mb-30">
+                    <div class="vid-icon"> <img src="img/slider/18.jpg" alt="YouTube">
+                        <a class="video-gallery-button vid" href="https://youtu.be/4hCOTCCTThs"> <span class="video-gallery-polygon">
+                                <i class="ti-control-play"></i>
+                            </span> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="vid-area mb-30">
+                    <div class="vid-icon"> <img src="img/slider/6.jpg" alt="Vimeo">
+                        <a class="video-gallery-button vid" href="https://youtu.be/4hCOTCCTThs"> <span class="video-gallery-polygon">
+                                <i class="ti-control-play"></i>
+                            </span> </a>
+                    </div>
+                </div>
+            </div> -->
+            <!-- 3 columns -->
+            <div class="col-md-4">
+                <div class="vid-area mb-30">
+                    <div class="vid-icon"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQPcUrYRdq26QICBN_a6e-IBAZQbwb11M1S9Ac3dFi55ZXU?width=1024" alt="YouTube">
+                        <a class="video-gallery-button vid" href="https://youtu.be/tNopZwq-lAA"> <span class="video-gallery-polygon">
+                                <i class="ti-control-play"></i>
+                            </span> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="vid-area mb-30">
+                    <div class="vid-icon"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQNNzFyB06STToeEJRnmhbSoAcAoVq7fMrmCo2lMsFCmnUA?width=1024" alt="YouTube">
+                        <a class="video-gallery-button vid" href="https://youtu.be/FtJ3D-Dl3Wc"> <span class="video-gallery-polygon">
+                                <i class="ti-control-play"></i>
+                            </span> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="vid-area mb-30">
+                    <div class="vid-icon"> <img src="https://1drv.ms/i/c/085170582ebc57d6/IQPBZomjijZ5RpiJPfqEn7HlAcby3eIXhWYHAZ-Nm-bbEsI?width=1024" alt="YouTube">
+                        <a class="video-gallery-button vid" href="https://youtu.be/O8nvedup-C8"> <span class="video-gallery-polygon">
+                                <i class="ti-control-play"></i>
+                            </span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Testiominals -->
+<section class="testimonials">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/home/banner.jpg" data-overlay-dark="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="testimonials-box">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"> 
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h5>" If you manage to get Samantha as your wedding planner, you are one lucky couple. We highly recommend! "</h5>
+                                <div class="info">
+                                    <div class="cont">
+                                        <h6>Emily & Enrico <i>|</i> <span><a href="portfolio-page.html">View the wedding</a></span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> 
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h5>" If you manage to get Duru as your wedding planner, you are one lucky couple. We highly recommend! "</h5>
+                                <div class="info">
+                                    <div class="cont">
+                                        <h6>Cynthia & Carl <i>|</i> <span><a href="portfolio-page.html">View the wedding</a></span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 
@@ -151,7 +325,7 @@
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col-md-12 text-right">
-                                <div class="permalink"><a href="">Explore <i class="ti-arrow-right"></i></a></div>
+                                <div class="permalink"><a href="commercial&event.html">Explore <i class="ti-arrow-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -165,7 +339,7 @@
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col-md-12 text-right">
-                                <div class="permalink"><a href="">Explore <i class="ti-arrow-right"></i></a></div>
+                                <div class="permalink"><a href="portrait.html">Explore <i class="ti-arrow-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -179,7 +353,7 @@
                         <div class="line"></div>
                         <div class="row facilities">
                             <div class="col-md-12 text-right">
-                                <div class="permalink"><a href="">Explore <i class="ti-arrow-right"></i></a></div>
+                                <div class="permalink"><a href="realestate.html">Explore <i class="ti-arrow-right"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -193,7 +367,7 @@
 
 <!-- Appointment Form -->
 <section id="contact" data-scroll-index="8" class="testimonials">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/6.jpg" data-overlay-dark="6">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/gallery/event/pottuthakku/3.jpg" data-overlay-dark="6">
         <div class="container">
             <div class="row">
                 <!-- Appointment call -->
@@ -347,12 +521,12 @@
                 <div class="col-md-3 offset-md-1">
                     <div class="footer-column footer-explore clearfix">
                         <h3 class="footer-title">Explore</h3>
-                        <ul class="footer-explore-list list-unstyled">
-                            <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Pricing</a></li>
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html#home" >Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="0">Commercial & Event</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portrait.html" >Portrait</a></li>
+                            <li class="nav-item"><a class="nav-link" href="realestate.html" >Real Estate</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html#price">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
                         </ul>
                     </div>
@@ -387,6 +561,7 @@
 </footer>
 
 
+
     <!-- jQuery -->
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -404,8 +579,7 @@
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
+
     <script>
         function submitData() {
         document.getElementById("overlay").style.display = "block";
@@ -452,5 +626,6 @@
         }
 
     </script>
+
 </body>
 </html>
