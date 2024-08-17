@@ -320,7 +320,7 @@ input[type="submit"] {
 }
 .alert-success {
     background: #748173;
-    color: #fff;
+    color: #000000;
     border: 1px solid #748173;
     border-radius: 0px;
 }
@@ -896,7 +896,7 @@ color: #fff;
  color: #748173;
 }
 .section-title {
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: #000;
