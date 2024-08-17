@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Playfair+Display:ital@0;1&amp;display=swap">
     <link rel="stylesheet" href="css/plugins.css" />
     <link rel="stylesheet" href="css/style.css" />
-    
 </head>
-<body>
 
-    <!-- Preloader -->
-    <div class="preloader-bg"><div class="container hero-inner h-100">
+
+<!-- Preloader -->
+<div class="preloader-bg">
+    <div class="container hero-inner h-100">
         <div class="v-middle">
             <div class="row h-100">
                 <div class="col-md-12 text-center">
@@ -26,84 +26,971 @@
                 </div>
             </div>
         </div>
-    </div></div>
+    </div>
+</div>
 
-    <!-- Progress scroll totop -->
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-    <div id="overlay">
-        <div id="loader"></div>
-    </div>
-    <div id="success-message" class="success-model">
-    </div>
 
-    <!-- Comming soon -->
-    <section class="comming section-padding">
-        <div class="v-middle">
-            <div class="container">
-                <div class="row text-center mt-30">
-                    <div class="col-md-12">
-                        <h2>Coming Soon!</h2>
-                        <h6>Our website is under construction</h6>
-                    </div>
-                </div>
-                <div class="row text-center mb-30">
-                    <div class="col-3 offset-md-2 col-md-2">
-                        <div class="item">
-                            <div class="down">
-                                <h3 id="days">02</h3>
-                            </div>
-                            <div class="item-info">
-                                <h6 class="mb-0">Days</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-2">
-                        <div class="item">
-                            <div class="down">
-                                <h3 id="hours">00</h3>
-                            </div>
-                            <div class="item-info">
-                                <h6 class="mb-0">Hours</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-2">
-                        <div class="item">
-                            <div class="down">
-                                <h3 id="minutes">00</h3>
-                            </div>
-                            <div class="item-info">
-                                <h6 class="mb-0">Minutes</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-md-2">
-                        <div class="item">
-                            <div class="down">
-                                <h3 id="seconds">00</h3>
-                            </div>
-                            <div class="item-info">
-                                <h6 class="mb-0">Seconds</h6>
+<!-- Progress scroll totop -->
+<div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<div id="overlay">
+    <div id="loader"></div>
+</div>
+<div id="success-message" class="success-model"></div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+            <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+            <!-- <a class="logo" href="index.html"> <h2>Florya</h2> </a> -->
+        </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Home -->
+<header id="home" data-scroll-index="0" class="header slider-fade">
+    <div class="owl-carousel owl-theme">
+        <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9 -->
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/1.jpg" alt="Straw hat Studio captures a Pottu Thakku event photograph of a group of people posing in formal attire at a social event, some standing and some kneeling, with a light-coloured interior and decorated tables in the background.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <div class="offset-md-3 col-md-6">
-                        <p>Sign up for our latest news & articles.</p>
-                        <form>
-                            <input type="email" name="email" placeholder="Email Address" required>
-                            <button>Subscribe</button>
-                        </form>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/2.jpg" alt="Straw Hat Studio photographed a client seated on a forest bench surrounded by tall trees and dappled sunlight for portrait photography. ">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/3.jpg" alt="Straw Hat Studio photographed a client standing in Queen Elizabeth park surrounded by tall trees and dappled sunlight for portrait photography.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/4.jpg" alt="Straw Hat Studio doing portrait photography for a client standing on a bustling street in Whistler, surrounded by buildings and a lively crowd.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/5.jpg" alt="Straw Hat Studio photographed a room for real estate purposes: a modern living room with white furniture and a large painting on the wall.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/6.jpg" alt="Straw Hat Studio photographed a cozy living room with a fireplace and couch for real estate photography.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/7.jpg" alt="Straw Hat Studio photographed a commercial shot of a blue and brown Fossil watch resting on a white surface.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/8.jpg" alt="Straw Hat Studio photographed a commercial shot of a blue and brown Fossil watch resting on a white surface.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item bg-img" data-overlay-dark="2" data-background="img/slider/9.jpg" alt="Straw Hat Studio photographed a commercial shot of a blue and brown Fossil watch resting on a white surface.">
+            <div class="container hero-inner h-100">
+                <div class="v-middle">
+                    <div class="row h-100">
+                        <div class="col-md-12 text-center">
+                            <div class="text-inner">
+                                <div class="hero-title">Straw hat Studio</div>
+                                <p class="hero-subtitle">Make your memories more special</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- About Us -->
+<section id="about" data-scroll-index="2" class="about2 cover section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
+                <div class="section-subtitle">About Us</div>
+                <div class="section-title">Straw Hat <span>Studio</span></div>
+                <p>Straw hat studio provides professional photography & videography service specializing in telling stories and 
+                    creative photography. We offer a wide range of services including family portraits, senior photos, maternity 
+                    sessions, and business headshots. With a passion for capturing genuine moments and a keen eye for detail, we 
+                    provide beautiful, high-quality images that tell a unique story. We are friendly, ensuring a comfortable and 
+                    enjoyable experience for all our clients.</p>
+                <ul class="list-unstyled about-list mb-30">
+                    <li>
+                        <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                        <div class="about-list-text">
+                            <p>50+ happy clients</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                        <div class="about-list-text">
+                            <p>50+ Events covered</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about-list-icon"> <span class="ti-check"></span> </div>
+                        <div class="about-list-text">
+                            <p>7 Services</p>
+                        </div>
+                    </li>
+                </ul>
+                <hr class="border">
+            </div>
+            <div class="col-md-5 offset-md-1 animate-box" data-animate-effect="fadeInUp">
+                <div class="img-exp">
+                    <div class="about-img">
+                        <div class="img"> <img src="img\home\about.jpg" class="img-fluid" alt=""> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Process -->
+<section class="process">
+    <div class="section-padding bg-img bg-fixed section-padding" data-background="img/home/cottonbro.jpg" alt="Straw Hat Studio is capturing a lifestyle photograph of a man sitting on a couch, reading a book to two young children one girl beside him and one boy standing next to him. They are in a cozy living room adorned with string lights and hanging plants." data-overlay-dark="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 mb-45 text-center">
+                    <h5>How We Work</h5>
+                    <h2>Our <span style="color: white;font-family: 'Dantina', sans-serif;letter-spacing: 0px;">Process<span></h2>
+                    <p>From start to finish, we maintain transparency with you.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 padding">
+                    <div class="item text-center"> <img src="img/home/arrow1.png" class="tobotm hide-on-specific-screen-size" alt=""> <span class="icon ti-clipboard"></span>
+                    <h6><span>01.</span>Planning</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 padding">
+                    <div class="item text-center"> <img src="img/home/arrow1.png" alt="" class="hide-on-specific-screen-size"> <span class="icon ti-video-camera"></span>
+                    <h6><span>02.</span>Shooting</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 padding">
+                    <div class="item text-center"> <img src="img/home/arrow1.png" class="tobotm hide-on-specific-screen-size" alt=""> <span class="icon ti-cut"></span>
+                    <h6><span>03.</span>Editing</h6>
+                    </div>
+                </div>
+                <div class="col-md-3 padding">
+                    <div class="item text-center"> <span class="icon ti-email"></span>
+                    <h6><span>04.</span>Delivery</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Services -->
+<section class="services section-padding" data-scroll-index="1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mb-30">
+                <div class="section-subtitle">The Portfolio</div>
+                <div class="section-title">Explore <span>Services</span></div>
+            </div>
+            <div class="col-md-7 mb-30">
+                <p>Each photo and video is hand-picked from a selection of 1000+ photos and carefully edited to meet the client's needs. Every photo is of great value to us and It's our pleasure to showcase our clients' memories here.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="position-re o-hidden"> <img src="img/services/1.jpg" alt=""> </div>
+                    <div class="con">
+                        <h5><a href="">Commercials & Events<span></span></a> </h5>
+                        <div class="line"></div>
+                        <div class="row facilities">
+                            <div class="col-md-12 text-right">
+                                <div class="permalink"><a href="commercial&event.html">Explore <i class="ti-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="position-re o-hidden"> <img src="img/services/2.jpg" alt=""> </div>
+                    <div class="con">
+                        <h5><a href="">Portrait <span></span></a> </h5>
+                        <div class="line"></div>
+                        <div class="row facilities">
+                            <div class="col-md-12 text-right">
+                                <div class="permalink"><a href="">Explore <i class="ti-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <div class="position-re o-hidden"> <img src="img/services/3.jpg" alt=""> </div>
+                    <div class="con">
+                        <h5><a href="">Real Estate<span></span></a> </h5>
+                        <div class="line"></div>
+                        <div class="row facilities">
+                            <div class="col-md-12 text-right">
+                                <div class="permalink"><a href="">Explore <i class="ti-arrow-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Promo Video -->
+<section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/7.jpg">
+    <div class="container" style="padding-top: 50px;">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <div class="section-subtitle"><span>Be Inspired</span></div>
+                <div class="section-title white">Latest Event <span style="color: white;">Video</span></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center col-md-12">
+                <a class="vid" href="https://youtu.be/tNopZwq-lAA?si=k2ILQkdnDdh9a1E1">
+                    <div class="vid-butn"> <span class="icon">
+                        <i class="ti-control-play"></i>
+                    </span> </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Gallery -->
+<section id="gallery" data-scroll-index="5" class="section-padding">
+    <div class="container">
+        <div style="display: flex;justify-content: center;">
+            <div class="col-md-5 mb-30" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                <div class="section-subtitle">showcase</div>
+                <div class="section-title">Our <span>Gallery</span></div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="florya-gallery-filter">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".Portraits">Portraits</li>
+                    <li data-filter=".Events">Events</li>
+                    <li data-filter=".RealEstate">Real Estate</li>
+                    <!-- <li data-filter=".Commercials">Commercials</li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="row florya-gallery-items">
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\pottuthakku\1.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\pottuthakku\1.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\pottuthakku\2.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\pottuthakku\2.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\1.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\1.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\pottuthakku\3.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\pottuthakku\3.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\pottuthakku\5.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\pottuthakku\5.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\pottuthakku\4.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\pottuthakku\4.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\1.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\1.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\2.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\2.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\3.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\3.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\4.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\4.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item RealEstate">
+                <a href="img\gallery\realestate\1.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\realestate\1.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item RealEstate">
+                <a href="img\gallery\realestate\2.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\realestate\2.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item RealEstate">
+                <a href="img\gallery\realestate\3.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\realestate\3.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\5.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\5.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\6.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\6.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\7.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\7.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\8.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\8.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\9.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\9.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Portraits">
+                <a href="img\gallery\portrait\10.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\portrait\10.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 florya-masonry-wrapper single-item Events">
+                <a href="img\gallery\event\2.jpg" title="Florya Weddings" class="item-img-link img-zoom">
+                    <div class="gallery-box">
+                        <div class="gallery-img"> <img src="img\gallery\event\2.jpg" alt=""> </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Testiominals -->
+<section class="testimonials">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/home/banner.jpg" data-overlay-dark="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <div class="testimonials-box">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"> 
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h5>" If you manage to get Samantha as your wedding planner, you are one lucky couple. We highly recommend! "</h5>
+                                <div class="info">
+                                    <div class="cont">
+                                        <h6>Emily & Enrico <i>|</i> <span><a href="portfolio-page.html">View the wedding</a></span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item"> 
+                                <span>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                    <i class="star-rating"></i>
+                                </span>
+                                <h5>" If you manage to get Duru as your wedding planner, you are one lucky couple. We highly recommend! "</h5>
+                                <div class="info">
+                                    <div class="cont">
+                                        <h6>Cynthia & Carl <i>|</i> <span><a href="portfolio-page.html">View the wedding</a></span></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Pricing photography -->
+<section id="pricing" data-scroll-index="6" class="services section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mb-30">
+                <div class="section-subtitle">Best Prices</div>
+                <div class="section-title">Photography <span>Pricing</span></div>
+            </div>
+            <div class="col-md-7 mb-30">
+                <p>We offer the best prices for our valued customers without compromising on quality. We don't rely on third-party vendors or unnecessary equipment. It's just you, me, the camera, and my skills, which is why I can provide the product at this price. Do you have any questions? Booking a call will help you get your problems solved.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\Portrait.jpg" alt=""></div>
+                            <div class="service-info">
+                                <p class="event-title">PORTRAIT PHOTOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>2 hour session</p>
+                                <p>5 Photos deliverable</p>
+                                <p>Delivery within 10 hours</p>
+                                <p><strong>$20</strong>/image</p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\Event.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">EVENT PHOTOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>1 hour event</p>
+                                <p>20 Photos deliverable</p>
+                                <p>Delivery within 24 hours</p>
+                                <p><strong>$70</strong></p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\RealEstate.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">REAL ESTATE PHOTOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>Full property coverage</p>
+                                <p>5 Photos deliverable</p>
+                                <p>Delivery within 10 hours</p>
+                                <p><strong>$30</strong>/image</p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\Commercial.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">COMMERCIAL PHOTOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>3 hour session</p>
+                                <p>20 Photos deliverable</p>
+                                <p>Delivery within 24 hours</p>
+                                <p><strong>$150</strong></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Videography -->
+<section class="services special-section">
+    <div class="container">
+        <div style="display: flex;justify-content: center;">
+            <div class="col-md-5 mb-30" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                <div class="section-subtitle">Best Prices</div>
+                <div class="section-title">Videography <span>Pricing</span></div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\VEvent.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">EVENT VIDEOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>3 hour event</p>
+                                <p>1 minute highlight video</p>
+                                <p>30 second trailer video</p>
+                                <p>Delivery within 48 hours</p>
+                                <p><strong>$250</strong></p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\VRealEstate.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">REAL ESTATE VIDEOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>1 property tour video</p>
+                                <p>1 minute highlight video</p>
+                                <p>2 social media vertical video </p>
+                                <p>Delivery within 24 hours</p>
+                                <p><strong>$350</strong></p>
+                            </div>
+                    </div>
+                    <div class="item">
+                        <div class="position-re o-hidden"> <img src="img\pricing\VCommercial.jpg" alt=""> </div>
+                            <div class="service-info">
+                                <p class="event-title">COMMERCIAL VIDEOGRAPHY</p>
+                                    <div class="vertical-line"></div>
+                                <p>3 hour session</p>
+                                <p>1 highlight video</p>
+                                <p>Delivery within 48 hours</p>
+                                <p><strong>$220</strong></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Faqs -->
+<section class="section-padding bg-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-30">
+                <div class="section-subtitle white">F.A.Qs</div>
+                <div class="section-title white">Session <span class="white">Questions</span></div>
+                <p class="white">We understand that you may have many questions about our photography and videography services, here are some answers for your questions!</p>
+                <p class="white">Have more or specific questions, book a call or make it simple by</p>
+                <a class="color-1" href="mailto:strawhatstudio@outlook.com">strawhatstudio@outlook.com</a>
+            </div>
+            <div class="col-md-6">
+                <ul class="accordion-box clearfix">
+                    <li class="accordion block">
+                        <div class="acc-btn">Can I book an appointment before a day?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">It’s generally best to book an appointment in advance to ensure availability, but if you need to schedule something for the next day, please contact us directly, and we’ll do our best to accommodate your request.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn">What rights do I have to the photos?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">You will have full usage rights for the photos, allowing you to use them for your intended purposes such as marketing or personal use.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn">Will you help with posing?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Yes, absolutely! We provide guidance and direction to help you and your guests feel comfortable and look great in your photos. Whether you need help with specific poses or general tips for natural-looking shots, we're here to assist throughout the session.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn">Can we request specific shots?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Absolutely! You can request specific shots for your photography videography session. Just let us know what you're looking for, and we'll work to incorporate those into your shoot.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn">What should I wear for the portrait session? Am I allowed to bring multiple outfits?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">For your portrait session, wear outfits that make you feel comfortable and confident. Solid colors or subtle patterns work best, as they keep the focus on you rather than your clothing. Feel free to bring multiple outfits if you'd like; just let us know in advance so we can allocate enough time for changes and select a specific location based on your outfit.</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="accordion block">
+                        <div class="acc-btn">Can I suggest a location for the shoot?</div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Yes, absolutely! We welcome and encourage clients to suggest locations for the shoot. If you have a specific spot in mind, let us know, and we’ll work with you to ensure it’s suitable for your vision.</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Appointment Form -->
+        <section id="contact" data-scroll-index="8" class="testimonials">
+            <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/7.jpg" data-overlay-dark="6">
+                <div class="container">
+                    <div class="row">
+                        <!-- Appointment call -->
+                        <div class="col-md-5 mb-30 mt-60">
+                            <p class="mb-0"><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
+                            <h5 style="font-family:'Playfair Display', serif !important ;">Transform your memories into something truly special. All you need to do is book a call.</h5>
+                            <div class="reservations mb-10">
+                                <!-- <div class="icon color-1"><span class="icon-icon-1-1"></span></div> -->
+                                <div class="text">
+                                    <p class="color-1">Make it simple?</p> <a class="color-1" href="mailto:strawhatstudio@outlook.com">strawhatstudio@outlook.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Appointment form -->
+                        <div class="col-md-5 offset-md-2">
+                            <div class="booking-box">
+                                <div class="head-box text-center">
+                                    <h4>Book a Call</h4>
+                                </div>
+                                <div class="booking-inner clearfix">
+                                    <form id="form" class="form1 clearfix">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="input1_wrapper">
+                                                    <label>Name</label>
+                                                    <div class="input2_inner">
+                                                        <input type="text" id="name" class="form-control input" placeholder="Name" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input1_wrapper">
+                                                    <label>Phone</label>
+                                                    <div class="input2_inner">
+                                                        <input type="text" id="phone" class="form-control input" placeholder="Phone" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input1_wrapper">
+                                                    <label>Mail Id</label>
+                                                    <div class="input2_inner">
+                                                        <input type="email" id="email" class="form-control input" placeholder="Mail Id" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="select1_wrapper">
+                                                    <label>Services</label>
+                                                    <div class="select1_inner">
+                                                        <select type="text" id="service" class="select2 select" style="width: 100%">
+                                                            <option value="Hair Styling">Event Photography</option>
+                                                            <option value="Hair Styling">Portrait</option>
+                                                            <option value="Face Mask">Real Estate Photography &nbsp;&nbsp;&nbsp;</option>
+                                                            <option value="Shaving">Commercial Photography</option>
+                                                            <option value="Beard Triming">Event Videography</option>
+                                                            <option value="Hair Wash">Real Estate Videography</option>
+                                                            <option value="Hair Wash">Commercial Videography</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input1_wrapper">
+                                                    <label>Date</label>
+                                                    <div class="input1_inner">
+                                                        <input type="date" id="date" class="form-control input" placeholder="Date" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="select1_wrapper">
+                                                    <label>Time</label>
+                                                    <div class="select1_inner">
+                                                        <select type="text" id="time" class="select2 select" style="width: 100%">
+                                                            <option value="0">Time</option>
+                                                            <option value="10:00 am">10:00 am</option>
+                                                            <option value="11:00 am">11:00 am</option>
+                                                            <option value="12:00 pm">12:00 pm</option>
+                                                            <option value="14:00 pm">01:00 pm</option>
+                                                            <option value="16:00 pm">02:00 pm</option>
+                                                            <option value="18:00 pm">03:00 pm</option>
+                                                            <option value="20:00 pm">04:00 pm</option>
+                                                            <option value="20:00 pm">05:00 pm</option>
+                                                            <option value="20:00 pm">06:00 pm</option>
+                                                            <option value="20:00 pm">07:00 pm</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="input1_wrapper">
+                                                    <label>Message</label>
+                                                    <div class="input3_inner" >
+                                                        <textarea type="text" name="message" id="message" cols="20" rows="3" placeholder="Message" required=""></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <button type="button" onclick="submitData()" class="btn-form1-submit mt-15">Make Appointment</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="clients-logo">
+                            <a href="#0"><img style="object-fit: cover;" src="img/clients/1.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                        </div>
+                        <div class="clients-logo">
+                            <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-column footer-about">
+                            <h3 class="footer-title">Straw hat Studio</h3> 
+                            <p class="footer-about-text">Hey there! We're Straw Hat Studio, your go-to experts for exceptional photography and videography services. Our specialty lies in crafting compelling stories through creative and professional photography.<span class="highlight">&nbsp Don't wait—book your event with us today! &nbsp</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1">
+                        <div class="footer-column footer-explore clearfix">
+                            <h3 class="footer-title">Explore</h3>
+                            <ul class="footer-explore-list list-unstyled">
+                                <li class="nav-item"><a class="nav-link active" href="#" data-scroll-nav="0">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="2">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="1">Portfolio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="5">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="6">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-column footer-contact">
+                            <h3 class="footer-title">Get in touch</h3>
+                            <p class="footer-contact-text">Burnaby, Vancouver
+                                <br>BC, Canada
+                            </p>
+                            <div class="footer-contact-info">
+                                <p class="footer-contact-phone"><span class="ti-headphone-alt"></span> +1 778 862 4071</p>
+                                <p class="footer-contact-mail">strawhatstudio@outlook.com</p>
+                            </div>
+                            <div class="footer-about-social-list"> <a href="https://www.instagram.com/straw.hat.studio"><i class="ti-instagram"></i></a> <a href="https://www.pinterest.ca/strawhatstudio"><i class="ti-pinterest"></i></a> <a href="https://www.behance.net/strawhatstudio"><i class="ti-dribbble"></i></a> <a href="https://www.linkedin.com/company/strawhatstudio"><i class="ti-linkedin"></i></a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom-inner">
+                            <p class="footer-bottom-copy-right">Copyright 2024 by <a href="" target="_blank">Straw hat Studio</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
     <!-- jQuery -->
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -121,32 +1008,52 @@
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
-    <!-- countdown -->
-    <script type="text/javascript">
-        function countdown() {
-            var now = new Date();
-            var eventDate = new Date(2024, 7, 10);
-            var currentTiime = now.getTime();
-            var eventTime = eventDate.getTime();
-            var remTime = eventTime - currentTiime;
-            var s = Math.floor(remTime / 1000);
-            var m = Math.floor(s / 60);
-            var h = Math.floor(m / 60);
-            var d = Math.floor(h / 24);
-            h %= 24;
-            m %= 60;
-            s %= 60;
-            h = (h < 10) ? "0" + h : h;
-            m = (m < 10) ? "0" + m : m;
-            s = (s < 10) ? "0" + s : s;
-            document.getElementById("days").textContent = d;
-            document.getElementById("days").innerText = d;
-            document.getElementById("hours").textContent = h;
-            document.getElementById("minutes").textContent = m;
-            document.getElementById("seconds").textContent = s;
-            setTimeout(countdown, 1000);
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script>
+        function submitData() {
+        document.getElementById("overlay").style.display = "block";
+        document.getElementById("loader").style.display = "block";
+        var name = document.getElementById("name").value;
+        var phone = document.getElementById("phone").value;
+        var email = document.getElementById("email").value;
+        var service = document.getElementById("service").value;
+        var date = document.getElementById("date").value;
+        var time = document.getElementById("time").value;
+        var message = document.getElementById("message").value;
+
+        var data = {
+            "name": name,
+            "phone": phone,
+            "email": email,
+            "service": service,
+            "date": date,
+            "time": time,
+            "message": message,
+        };
+        console.log(data);
+        console.log(window.location.origin);
+        fetch('https://script.google.com/macros/s/AKfycbxBUtZ9Nnn1MxKFU8vRiR-6KayKW7LO_60pTBupd5fvttp6MqALbgvSJJq6aPEfakO3/exec', {
+            method: 'POST',
+            body: JSON.stringify(data),
+            mode: 'no-cors'
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log('Success:', data);
+            document.getElementById("success-message").innerHTML = "Data submitted successfully!";
+            document.getElementById("success-message").style.display = "block";
+            
+            setTimeout(function() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("success-message").style.display = "none";
+            document.getElementById("form").reset();
+            }, 1000);
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
         }
-        countdown();
 
     </script>
 </body>

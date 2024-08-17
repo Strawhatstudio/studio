@@ -2208,6 +2208,11 @@ hr.border {
 .services .item:hover .con {
     bottom: 0;
 }
+
+.services .item:hover .con1 {
+
+}
+
 .services .item img {
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -2257,6 +2262,24 @@ hr.border {
     background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
     background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
 }
+
+.services .item .con1 {
+    padding: 20px;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-align: left;
+    z-index: 20;
+    height: auto;
+    box-sizing: border-box;
+    background: -moz-linear-gradient(top, transparent 0, rgba(0, 0, 0, .1) 2%, rgba(0, 0, 0, .75) 90%);
+    background: -webkit-linear-gradient(top, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%);
+}
+
 .services .item .con h6,
 .services .item .con h6 a {
     position: relative;
@@ -2303,6 +2326,57 @@ position: relative;
 .services .item .con .butn-light:hover {
     border-color: #748173;
 }
+
+
+
+.services .item .con1 h6,
+.services .item .con1 h6 a {
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Dantina', sans-serif;
+    display: inline;
+    margin-bottom: 0px;
+}
+.services .item .con1 h6 i {
+    font-size: 6px;
+    margin-right: 2px;
+}
+.services .item .con1 h5,
+.services .item .con1 h5 a {
+position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.services .item .con1 h5 span, 
+.services .item .con1 h5 a span {
+    font-family: 'Dantina', sans-serif;
+}
+.services .item .con1 p {
+    color: #fff;
+    font-size: 20px;
+}
+.services .item .con1 i {
+    color: #fff;
+    font-size: 18px;
+}
+.services .item .con1 i:hover {
+    color: #fff;
+}
+.services .item .con1 .butn-light {
+    margin-left: 0;
+    border-radius: 30px;
+    border-color: #000;
+    padding: 11px 30px;
+}
+.services .item .con1 .butn-light:hover {
+    border-color: #748173;
+}
+
+
 /* line animation */
 .services .item .line {
     text-align: center;
@@ -2367,6 +2441,40 @@ position: relative;
 }
 .services .item .con .permalink a:hover,
 .services .item .con .permalink i:hover {
+color: #748173;
+}
+
+
+
+
+.services .item .con1 .permalink {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    height: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    display: inline;
+}
+.services .item .con1 .permalink a {
+    color: #fff;
+    text-align: right;
+}
+.services .item .con1 .permalink i {
+   font-size: 10px;
+    text-align: right;
+}
+.services .item .con1 .permalink a:hover,
+.services .item .con1 .permalink i:hover {
 color: #748173;
 }
 /* hr style */
@@ -3670,6 +3778,11 @@ font-family: 'Didact Gothic', sans-serif;
 .blog .item:hover .con {
     bottom: 0;
 }
+
+.blog .item:hover .con1 {
+    bottom: 0;
+}
+
 .blog .item img {
     -webkit-transition: all .5s;
     transition: all .5s;
@@ -3714,6 +3827,20 @@ font-family: 'Didact Gothic', sans-serif;
     bottom: -75px;
     position: relative;
 }
+
+.blog .item .con1 {
+    margin: -125px 30px 90px;
+    padding: 30px;
+    background-color: #fff !important;
+    border: 1px solid #fff;
+    border-radius: 0;
+    overflow: hidden;
+    -webkit-transition: .2s cubic-bezier(.3, .58, .55, 1);
+    transition: .2s cubic-bezier(.3, .58, .55, 1);
+    bottom: -75px;
+    position: relative;
+}
+
 .blog .item .con .category {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 14px;
@@ -3760,6 +3887,56 @@ font-family: 'Didact Gothic', sans-serif;
     color: #fff;
     font-size: 20px;
 }
+
+
+
+.blog .item .con1 .category {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.blog .item .con1 .category a {
+    margin-right: 5px;
+    position: relative;
+    color: #738172;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.blog .item .con1 .category a:hover {
+    color: #000;
+}
+.blog .item .con1 .category a:last-child {
+    margin-right: 0;
+}
+.blog .item .con1 .category a:last-child:after {
+    display: none;
+}
+.blog .item .con1 h5,
+.blog .item .con1 h5 a {
+    color: #000;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 1.5em;
+}
+.blog .item .con1 h5 span, 
+.blog .item .con1 h5 a span {
+    font-family: 'Dantina', sans-serif;
+}
+.blog .item .con1 h5:hover,
+.blog .item .con1 h5 a:hover {
+    color: #000;
+}
+.blog .item .con1 p {
+    color: #fff;
+    font-size: 17px;
+}
+.blog .item .con1 i {
+    color: #fff;
+    font-size: 20px;
+}
+
 /* blog pagination */
 .blog-pagination-wrap {
     padding: 0;
@@ -4909,6 +5086,12 @@ select {
         margin: -125px 15px 90px;
         padding: 20px;
     }
+
+    .blog .item .con1 {
+        margin: -125px 15px 90px;
+        padding: 20px;
+    }
+
     .blog2 .post-cont h5 {
         font-size: 27px;
     }
@@ -5042,7 +5225,7 @@ select {
 
 /* ======= Section style ======= */
 .section-padding {
-    padding: 60px 0;
+    padding: 60px 60px 0 60px;
 }
 
 .special-section {
