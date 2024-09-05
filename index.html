@@ -1010,6 +1010,21 @@
     <script src="js/custom.js"></script>
     <script src="js/select2.js"></script>
     <script src="js/datepicker.js"></script>
+    <script src="js/service-worker.js"></script>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(reg => console.log('Service Worker registered:', reg))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+
+
+
+
     <script>
         function submitData() {
         document.getElementById("overlay").style.display = "block";
