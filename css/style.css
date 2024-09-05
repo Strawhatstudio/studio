@@ -5475,6 +5475,7 @@ select {
 
 .input1_inner input {
     display: block;
+    margin-bottom: 10px;
     width: 100%;
     font-size: 15px;
     color: #14100c;
@@ -5488,6 +5489,7 @@ select {
 .input1_inner input::placeholder {
     font-size: 15px;
     color: #14100c !important;
+
 }
 
 .input1_inner input:focus {
@@ -5594,7 +5596,7 @@ select {
 .select2 {
     width: 100%;
     background: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: none !important;
     border-radius: 0%;
 }
