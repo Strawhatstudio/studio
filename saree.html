@@ -59,12 +59,12 @@
         <!-- Menu -->
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html#home" >Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="commercial&event.html">Commercial & Event</a></li>
                 <li class="nav-item"><a class="nav-link" href="portrait.html">Portrait</a></li>
-                <li class="nav-item"><a class="nav-link" href="realestate.html" >Real Estate</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#amount">Pricing</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="realestate.html">Real Estate</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html?scrollTo=6">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -422,7 +422,7 @@
                             <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#amount">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html?scrollTo=6">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
                         </ul>
                     </div>
@@ -507,7 +507,7 @@
         .then(response => response.text())
         .then(data => {
             console.log('Success:', data);
-            document.getElementById("success-message").innerHTML = "Data submitted successfully!";
+            document.getElementById("success-message").innerHTML = "Appointment Completed!";
             document.getElementById("success-message").style.display = "block";
             
             setTimeout(function() {

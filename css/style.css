@@ -5759,7 +5759,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .success-model {
     /* Adjust styles as needed */
     display: none; /* Initially hidden */
-    background-color: #748173;
+    color: #1a1a1a;
+    background-color: #1a1a1a;
     position: fixed; /* Stays in place when scrolling */
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
@@ -5772,8 +5773,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 1; /* Initial opacity for fade-in effect */
     transition: opacity 0.5s ease-in-out; /* Transition for fade */
     text-align: center;
-    padding: 50px;
-    font-family: 'Dantina', sans-serif;
+    padding: 20px 50px 20px 50px;
+    font-family: 'Playfair Display', serif;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   }
   
