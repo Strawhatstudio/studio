@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="public, max-age=604800, must-revalidate">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>Straw Hat Studio | Photography & Videography Service Provider</title>
+    <link rel="stylesheet" href="style-v1.css">
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&amp;family=Playfair+Display:ital@0;1&amp;display=swap">
     <link rel="stylesheet" href="css/plugins.css" />
@@ -101,7 +103,7 @@
 
 
 <!-- Services -->
-<section class="services section-padding">
+<section id="portfolio" class="services section-padding" data-scroll-index="1">
     <div class="container">
         <div class="row">
             <div class="col-md-5 mb-30">
@@ -115,7 +117,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/1.jpg" alt=""> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/1.jpg" alt="Straw hat Stuido Event service"> </div>
                     <div class="con">
                         <h5><a href="">Commercials & Events<span></span></a> </h5>
                         <div class="line"></div>
@@ -129,7 +131,7 @@
             </div>
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/2.jpg" alt=""> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/2.jpg" alt="Straw hat Stuido portrait service"> </div>
                     <div class="con">
                         <h5><a href="">Portrait <span></span></a> </h5>
                         <div class="line"></div>
@@ -143,7 +145,7 @@
             </div>
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/3.jpg" alt=""> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/3.jpg" alt="Straw hat Stuido Real Estate service"> </div>
                     <div class="con">
                         <h5><a href="">Real Estate<span></span></a> </h5>
                         <div class="line"></div>
@@ -163,7 +165,7 @@
 
 <!-- Appointment Form -->
 <section id="contact" data-scroll-index="8" class="testimonials">
-    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/6.jpg" data-overlay-dark="6">
+    <div class="background bg-img bg-fixed section-padding pb-0" data-background="img/slider/7.jpg" data-overlay-dark="6">
         <div class="container">
             <div class="row">
                 <!-- Appointment call -->
@@ -284,16 +286,16 @@
         <div class="col-md-7">
             <div class="owl-carousel owl-theme">
                 <div class="clients-logo">
-                    <a href="#0"><img style="object-fit: cover;" src="img/clients/1.png" alt=""></a>
+                    <a href="#0"><img style="object-fit: cover;" src="img/clients/1.png" alt="Douglas College Logo"></a>
                 </div>
                 <div class="clients-logo">
-                    <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                    <a href="#0"><img src="img/clients/2.png" alt="UBC TSA Logo"></a>
                 </div>
                 <div class="clients-logo">
-                    <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                    <a href="#0"><img src="img/clients/3.png" alt="SFU TSA Logo"></a>
                 </div>
                 <div class="clients-logo">
-                    <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                    <a href="#0"><img src="img/clients/4.png" alt="Sesha Logo"></a>
                 </div>
             </div>
         </div>
@@ -322,7 +324,7 @@
                             <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.html#amount">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html?scrollTo=6">Pricing</a></li>
                             <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
                         </ul>
                     </div>
@@ -357,7 +359,9 @@
 </footer>
 
 
+
     <!-- jQuery -->
+     
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -374,8 +378,18 @@
     <script src="js/YouTubePopUp.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
+    <script src="js/service-worker.js"></script>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(reg => console.log('Service Worker registered:', reg))
+                    .catch(err => console.log('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+
     <script>
         function submitData() {
         document.getElementById("overlay").style.display = "block";
@@ -399,7 +413,7 @@
         };
         console.log(data);
         console.log(window.location.origin);
-        fetch('https://script.google.com/macros/s/AKfycbxBUtZ9Nnn1MxKFU8vRiR-6KayKW7LO_60pTBupd5fvttp6MqALbgvSJJq6aPEfakO3/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbxtpMAY1gXNzjSBdSWxjDVog3W0M6IariqbxrYQbLUJ2866fFkzocbi7r_XA1hXzIA/exec', {
             method: 'POST',
             body: JSON.stringify(data),
             mode: 'no-cors'
@@ -407,7 +421,7 @@
         .then(response => response.text())
         .then(data => {
             console.log('Success:', data);
-            document.getElementById("success-message").innerHTML = "Data submitted successfully!";
+            document.getElementById("success-message").innerHTML = "Appointment Booked!";
             document.getElementById("success-message").style.display = "block";
             
             setTimeout(function() {
@@ -422,5 +436,28 @@
         }
 
     </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let lazyImages = document.querySelectorAll("img.lazy");
+  
+      let lazyLoad = function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            let img = entry.target;
+            img.src = img.dataset.src;
+            img.classList.remove("lazy");
+            observer.unobserve(img);
+          }
+        });
+      };
+  
+      let observer = new IntersectionObserver(lazyLoad);
+      lazyImages.forEach(function (img) {
+        observer.observe(img);
+      });
+    });
+  </script>
+
 </body>
 </html>

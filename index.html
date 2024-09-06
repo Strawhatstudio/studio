@@ -1003,16 +1003,7 @@
     <script src="js/select2.js"></script>
     <script src="js/datepicker.js"></script>
     <script src="js/service-worker.js"></script>
-
-    <script>
-        fetch('common-section.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("service common-section").innerHTML = data;
-                document.getElementById("footer common-section").innerHTML = data;
-            })
-            .catch(error => console.log('Error loading common section:', error));
-    </script>
+    
     
     <script>
         if ('serviceWorker' in navigator) {
