@@ -15,22 +15,23 @@
 </head>
 <body>
 
-
+    
 <!-- Preloader -->
-<div class="preloader-bg"><div class="container hero-inner h-100">
-    <div class="v-middle">
-    <div class="row h-100">
-        <div class="col-md-12 text-center">
-            <div class="text-inner">
-                    <div class="hero-title" style="color: black;">Straw hat Studio</div>
-                    <p class="hero-subtitle" style="color: black;">Make your memories more special</p>
+<div class="preloader-bg">
+    <div class="container hero-inner h-100">
+        <div class="v-middle">
+            <div class="row h-100">
+                <div class="col-md-12 text-center">
+                    <div class="text-inner">
+                        <div class="hero-title" style="color: black;">Straw hat Studio</div>
+                        <p class="hero-subtitle" style="color: black;">Make your memories more special</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
 </div>
-</div>
-    
+
 
 
 <!-- Progress scroll totop -->
@@ -39,6 +40,11 @@
         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
     </svg>
 </div>
+<div id="overlay">
+    <div id="loader"></div>
+</div>
+<div id="success-message" class="success-model"></div>
+
 
 
 <!-- Navbar -->
@@ -46,7 +52,7 @@
     <div class="container">
         <!-- Logo -->
         <div class="logo-wrapper">
-            <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+            <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt="Straw hat Studio Logo"> </a>
             <!-- <a class="logo" href="index.html"> <h2>Florya</h2> </a> -->
         </div>
         <!-- Button -->
@@ -54,11 +60,11 @@
         <!-- Menu -->
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html#home" >Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="commercial&event.html">Commercial & Event</a></li>
-                <li class="nav-item"><a class="nav-link" href="portrait.html" >Portrait</a></li>
-                <li class="nav-item"><a class="nav-link" href="realestate.html" >Real Estate</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html#amount">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="portrait.html">Portrait</a></li>
+                <li class="nav-item"><a class="nav-link" href="realestate.html">Real Estate</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html?scrollTo=6">Pricing</a></li>
                 <li class="nav-item"><a class="nav-link" href="#" data-scroll-nav="8">Contact</a></li>
             </ul>
         </div>
@@ -74,7 +80,7 @@
             <div style="display: flex;justify-content: center;">
                 <div class="col-md-5 mb-30" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
                     <div class="section-subtitle">commercial & Event</div>
-                    <div class="section-title">Our <span>Showcase</span></div>
+                    <div class="section-title"><span>Showcase</span></div>
                 </div>  
             </div>
         </div>
@@ -83,7 +89,7 @@
             
             <div class="col-md-4">
                 <div class="item">
-                    <a href="pottuthakku.html"><img src="img\page\commercials\pottu.jpg" alt=""></a>
+                    <a href="pottuthakku.html"><img src="img\page\commercials\pottu.jpg" alt="Pottu Thakku DJ tamil event photography"></a>
                     <div class="con1">
                         <h5><a href="">Pottu Thakku - DJ Event<span></span></a> </h5>
                         <div class="line"></div>
@@ -102,8 +108,9 @@
 
 
 
+
 <!-- Services -->
-<section id="portfolio" class="services section-padding" data-scroll-index="1">
+<section class="services section-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-5 mb-30">
@@ -117,7 +124,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/1.jpg" alt="Straw hat Stuido Event service"> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/1.jpg" alt="Straw hat studio Commercial & Events service"> </div>
                     <div class="con">
                         <h5><a href="">Commercials & Events<span></span></a> </h5>
                         <div class="line"></div>
@@ -131,7 +138,7 @@
             </div>
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/2.jpg" alt="Straw hat Stuido portrait service"> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/2.jpg" alt="Straw hat studio Portrait service"> </div>
                     <div class="con">
                         <h5><a href="">Portrait <span></span></a> </h5>
                         <div class="line"></div>
@@ -145,7 +152,7 @@
             </div>
             <div class="col-md-4">
                 <div class="item">
-                    <div class="position-re o-hidden"> <img src="img/services/3.jpg" alt="Straw hat Stuido Real Estate service"> </div>
+                    <div class="position-re o-hidden"> <img src="img/services/3.jpg" alt="Straw hat studio Real Estate service"> </div>
                     <div class="con">
                         <h5><a href="">Real Estate<span></span></a> </h5>
                         <div class="line"></div>
@@ -361,7 +368,7 @@
 
 
     <!-- jQuery -->
-     
+    <script src="app-v1.js"></script>
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -436,28 +443,6 @@
         }
 
     </script>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      let lazyImages = document.querySelectorAll("img.lazy");
-  
-      let lazyLoad = function (entries, observer) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            let img = entry.target;
-            img.src = img.dataset.src;
-            img.classList.remove("lazy");
-            observer.unobserve(img);
-          }
-        });
-      };
-  
-      let observer = new IntersectionObserver(lazyLoad);
-      lazyImages.forEach(function (img) {
-        observer.observe(img);
-      });
-    });
-  </script>
 
 </body>
 </html>
