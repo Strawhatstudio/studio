@@ -896,7 +896,7 @@ color: #fff;
  color: #748173;
 }
 .section-title {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: #000;
@@ -4893,7 +4893,7 @@ select {
         font-size: 27px;
     }
     .section-title {
-        font-size: 30px;
+        font-size: 25px;
     }
     .testimonials .item h5 {
         font-size: 20px;
@@ -5773,7 +5773,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 1; /* Initial opacity for fade-in effect */
     transition: opacity 0.5s ease-in-out; /* Transition for fade */
     text-align: center;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 40px 20px 40px;
     font-family: 'Playfair Display', serif;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   }
